@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Readex+Pro:wght@500&family=Righteous&family=Sarala:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+header a {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 60px;
+    cursor: pointer;
+}
+header img{
+    height: 60px;
+}
+header a:hover{
+    color: black;
+}
+.line{
+  border-top: 0.4px solid #FFF2E7;
+  
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.section1 h1{
+   
+ font-family: 'Righteous', cursive;
+ font-size: 64px;
+ position: relative;
+ right: 130px;
+}
+.section1 h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color:#ECD6C4;
+}
+.section1 button{
+    background: #ECD6C4;
+    top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 0 1px 1px black;
+    position: relative;
+    right: 215px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center  ;
+}
+.section1 button:hover{
+    transform: scale(1.013);
+}
+.section1 img{
+    flex-direction: column;
+
+}
+.section2{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.inf2{
+    letter-spacing: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Righteous', cursive;
+} 
+.inf2 h2{
+    border-top: 0.4px solid #FFF2E7;
+   padding-top: 30px;
+}
+.inf3{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Sarala', sans-serif;
+    margin-bottom: 40px;
+}
+
+footer{
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+footer span{
+    
+    font-size: 70px;
+    font-family: 'Readex Pro', sans-serif;
+    
+}
+
+.b{
+    color: #FEAFBE;
+}
+.a{
+   color: #B3DFD3;
+}
+.c{
+color: #A45A49;
+}
+.d{
+    color:#EFC764;
+ }
+ .e{
+    color: #97D4D9;
+ }
+ .f{
+    color: #FEAFBE;
+ }
+ .g{
+    color: #B3DFD3;
+ }
+ .h{
+    color: #A45A49;
+ }
+ .i{
+     color: #EFC764 ;
+ }
